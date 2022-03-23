@@ -12,3 +12,10 @@ I am 18 years old student, and my goal is to gain knowledge in the field of fron
   * Quick learner
   * Always open to new experiences
   * Assiduous worker
+
+## Skills ##
+  * HTML5, CSS3
+  * JavaScript, C++ basics
+  * VS Code
+  * Git, GitHub
+  * Adobe Photoshop, Adobe XD, Figma
