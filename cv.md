@@ -1,8 +1,8 @@
 # Kostiantyn Haranskyi
 
 ## Contacts ##
-  * Discord : 
-  * Telegram : @kos.garanskiy
+  * Phone: +38(097)182-82-60
+  * Telegram : [@kos_garanskiy](https://t.me/kos_garanskiy)
   * Email : garanskiy.kos@gmail.com
 
 ## About Me ##
