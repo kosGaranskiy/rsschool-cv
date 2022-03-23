@@ -38,3 +38,11 @@ function digital_root (n) {
   return n;
 }
 ```
+## Education ##
+  * Kyiv National University of Construction and Architecture
+    + Faculty of Automation and Information Technologies (second year of study)
+
+## Languages ##
+  * **Ukrainian** - native speaker
+  * **Russian** - native speaker
+  * **English** - B1
