@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <div class="two-columns">
+        <aside class="left-column">
+            <header class="header">
+                <img class="portrait" src="images/portrait.png" alt="portrait">
+                <h1>Kostiantyn Haranskyi</h1>
+            </header>
+            <main class="main">
+                <section class="contacts">
+                    <h2 class="left-side-heading heading">Contacts</h2>
+                    <ul class="left-side-list">
+                        <li><img class="img-sn" src="images/phone.svg" alt=""><a href="tel: +380971828260 ">+38(097)182-82-60</a></li>
+                        <li><img class="img-sn" src="images/telegram.svg" alt="telegram-logo"><a href="#">@kos_garanskiy</a></li>
+                        <li><img class="img-sn" src="images/mail.svg" alt=""><a href="">garanskiy.kos@gmail.com</a></li>
+                    </ul>
+                </section>
+                <section class="skills left-side-section">
+                    <h2 class="left-side-heading heading">Skills</h2>
+                    <ul class="left-side-list">
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript, C++ basics</li>
+                        <li>VS Code</li>
+                        <li>Git, GitHub</li>
+                        <li>Adobe Photoshop, Adobe XD,</li>
+                        <li>Figma</li>
+                    </ul>
+                </section>
+                <section class="languages">
+                    <h2 class="left-side-heading heading">Languages</h2>
+                    <ul class="left-side-list">
+                        <li>Ukrainian - native speaker</li>
+                        <li>Russian - native speaker</li>
+                        <li>English - B1</li>
+                    </ul>
+                </section>
+            </main>
+        </aside>
+        <div class="right-column">
+            <section class="about-me">
+                <h2 class="heading">About me</h2>
+                <hr>
+                <p>I am 18 years old student, and my goal is to gain knowledge in the field of front-end development, that is why I am here!</p>
+            </section>
+            <section class="education">
+                <h2 class="heading">Education</h2>
+                <hr>
+                <p><b>Kyiv National University of Construction and Architecture</b>
+                <br>
+                <span class="tab">Faculty of Automation and Information Technologies (second year of study)</span></p>
+            </section>
+            <section class="code-example">
+                <h2 class="heading">Code example</h2>
+                <hr>
+                <p>
+                    <b>Peak array index KATA from CODEWARS :</b>
+                </p>
+                <p>Given n, take the sum of the digits of n. If that value has more than one digit, continue reducing in this way until a single-digit number is produced. The input will be a non-negative integer.</p>
+                <div class="code-container">
+                    <pre><code class="language-js">function digital_root(n) {
+    let amount = 0;
+    while (amount == 0 && n >= 10) {
+        let stringN = String(n);
+        for (let i = 0; i &lt; stringN.length; i++) {
+            amount += parseInt(stringN[i]);
+        }
+        n = amount;
+        amount = 0;
+    }
+    return n;
+}</code></pre>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href=""><img class="img-footer-github" src="images/github.svg" alt=""></a>
+        <a href=""><img class="img-footer-rsschool" src="images/rsschool.svg" alt=""></a>
+    </footer>
+</div>
+    <script src="script/prism.js"></script>
+</body>
+</html>
